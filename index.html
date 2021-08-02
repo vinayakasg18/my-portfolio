@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>VinayakaGadag Portfolio Website</title>
+        <link rel = "stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- Update your fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+        <!-- Link to your CSS file -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/vinayak.png" width="500" height="400" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Experience</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Achievements</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Hire Me</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--  Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Vinayaka Gadag</strong>
+            </h1>
+            <p class="section_subtitle section_subtitle--intro">full-stack developer</p>
+            <img src="img/vinayakaWithMask.jpeg" width="300" height="300" alt="a picture of Vinayaka with mask">
+        </section>
+
+        <!-- My Services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="services">
+                    <h3>Full-Stack Development</h3>
+                    <p>I'm an enthusiastic software developer who is very curious about learning new technologies. Currently a graduate student at Indiana Universoty, Bloomington and learnign the technologies and tech stack required for the full-stack development.</p>
+                </div>
+
+                <div class="services">
+                    <h3>DevOps</h3>
+                    <p>I'm a Experienced DevOps engineer with Software development background. I have developed a devops lifecycle along my peers for many Projects.</p>
+                </div>
+
+                <div class="services">
+                    <h3>Photography</h3>
+                    <p>I love capturing beatiful moments during my free time.</p>
+                </div>
+            </div>
+            <a href="#work" class="btn">My Work</a>
+        </section>
+
+        <!-- About me -->
+        <section class="about--me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about"></p>
+
+            <div class="about-me__body">
+                <p> Full-Stack and DevOps engineer based out of Bloomington, Indiana</p>
+                <p> I'm an gradute student at Indiana Uinversity studying Computer Science. I love running, cycling or capturing the good moments around the beatiful college town. Find me on Instagram(Link below) for more photos.</p>
+            </div>
+
+            <img src="img/vinayakabeachpic.jpeg" width="200" height="300" alt="Vinayaka at beach">
+        </section>
+
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title">My work</h2>
+            <p class="section__subtitle"></p>
+
+            <div class="portfolio">
+                <!-- portfolio item 01 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/neo4j.png" width="300" height="200" alt="" class="portfolio__img">
+                </a>
+
+                <!-- portfolio item 02 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio_img.webp" width="300" height="200" alt="" class="portfolio__img">
+                </a>
+
+                <!-- portfolio item 03 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/algorithms.png" width="300" height="200" lt="" class="portfolio__img">
+                </a>
+
+                <!-- portfolio item 04 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/springboot.png" width="300" height="200" lt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="my-skills" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <p class="section__subtitle"></p>
+
+            <div class="my-skils">
+                <!-- skills item 01 -->
+                <ul class="skills__list">
+                    <li class="skills__item"><a href="#" class="skills__link">Languages: Java, Python, Javascript</a></li>
+                    <li class="skills__item"><a href="#" class="skills__link">Cloud: AWS, Azure, GCP</a></li>
+                    <li class="skills__item"><a href="#" class="skills__link">Platforms: Docker, Kubernetes, Helm, Maven, Gradle, Jupyter</a></li>
+                    <li class="skills__item"><a href="#" class="skills__link">Databases: Neo4j, MySQL, MongoDB</a></li>
+                    <li class="skills__item"><a href="#" class="skills__link">Frameworks: Spring Boot, Django</a></li>
+                    <li class="skills__item"><a href="#" class="skills__link">Tools: Concourse, Jenkins, Git</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <!-- replace with your own email address -->
+            <a href="mailto:vinayaksgadag@gmail.com" class="footer__link">vinayaksgadag@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/vinayaka-gadag/">LinkedIn</a></li>
+                <li class="social-list__item"><a class="social-list__link" href="https://github.com/vinayakasg18">GitHub</a></li>
+                <li class="social-list__item"><a class="social-list__link" href="https://www.instagram.com/vinayaka_gadag/">Instagram</a></li>
+                <li class="social-list__item"><a class="social-list__link" href="https://www.facebook.com/vinayaka.s.gadag/">Facebook</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>
